@@ -1,5 +1,11 @@
-'use strict';
+"use strict";
 
-const inc = null;
+/**
+ * @param {Object} obj
+ * @return {number}
+ */
+const inc = (obj) => {
+  ++obj.n;
+};
 
 module.exports = { inc };

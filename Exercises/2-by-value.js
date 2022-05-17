@@ -1,5 +1,9 @@
-'use strict';
+"use strict";
 
-const inc = null;
+/**
+ * @param {number} n
+ * @return {number}
+ */
+const inc = (n) => ++n;
 
 module.exports = { inc };
